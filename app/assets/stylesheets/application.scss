@@ -1,2 +1,7 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
-@import "bootstrap";
+@import 'bootstrap';
+@import 'navbar';
+
+.layout {
+  padding: 2rem; // @TODO make this global padding
+}

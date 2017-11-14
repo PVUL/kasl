@@ -1,0 +1,19 @@
+///
+// Navbar
+//
+// Copyright 2017
+///
+
+.navbar {
+  background-color: darkgrey;
+  &-nav {
+    display: inline-block;
+    float: right;
+    li {
+      display: inline;
+    }
+  }
+  &-text {
+    color: white; // font text on nav bar override
+  }
+}
